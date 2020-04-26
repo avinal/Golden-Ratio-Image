@@ -10,7 +10,7 @@ Converts a image to a grayscale/color Fibonacci Number based Golden Ratio Image.
 git clone https://github.com/avinal/Golden-Ratio-Image.git
 cd Golden-Ratio-Image
 javac src/*.java
-java src.TreeDraw
+java src.TheCanvas
 ```
 
 ## Image Examples
@@ -23,6 +23,6 @@ java src.TreeDraw
  3. Or Set Color
     ![Colored Golden Me](images/goldenColorAvii.png)
 
-his Project uses `StdDraw.java`. The Same can be obtained from [here](https://introcs.cs.princeton.edu/java/stdlib/StdDraw.java.html).
+This Project uses `StdDraw.java`. The Same can be obtained from [here](https://introcs.cs.princeton.edu/java/stdlib/StdDraw.java.html).
 
 
