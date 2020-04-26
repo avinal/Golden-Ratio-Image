@@ -12,7 +12,6 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
-import src.depends.StdDraw;
 
 /**
  * The class creates and draws the image according to golden ratio.
