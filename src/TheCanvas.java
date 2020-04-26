@@ -38,7 +38,7 @@ public class TheCanvas {
         if (status == JFileChooser.APPROVE_OPTION) {
             return open.getSelectedFile();
         } else {
-            return new File("tree.txt");
+            return new File("images/avii.jpg");
         }
     }
 }
