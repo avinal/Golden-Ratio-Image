@@ -20,6 +20,9 @@ java src.TreeDraw
  2. Artistic Image
     ![Golden Me](images/goldenAvii.png)
 
+ 3. Or Set Color
+    ![Colored Golden Me](images/goldenColorAvii.png)
+
 his Project uses `StdDraw.java`. The Same can be obtained from [here](https://introcs.cs.princeton.edu/java/stdlib/StdDraw.java.html).
 
 
