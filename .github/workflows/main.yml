@@ -12,7 +12,7 @@ jobs:
     name: Update readme
     runs-on: ubuntu-latest
     steps:
-      - uses: avinal/github-pages-deploy-action@master
+      - uses: avinal/github-pages-deploy-action@main
         with:
           GITHUB_TOKEN: ${{ github.token }}
           LANGUAGE: "java"
