@@ -4,16 +4,12 @@ name: Generate and deploy docs
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
-on:
-  push:
-    branches: all
-  pull_request:
-    branches: all
+on: [push, pull_request]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  update-readme:
-    name: Update the WakaTime Stat
+  update-docs:
+    name: Update readme
     runs-on: ubuntu-latest
     steps:
       - uses: avinal/github-pages-deploy-action@master
