@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"src","c":"TheArtist","l":"goldenDraw()"},{"p":"src","c":"TheCanvas","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"src","c":"TheCanvas","l":"openFile()"},{"p":"src","c":"TheCanvas","l":"TheCanvas()","url":"%3Cinit%3E()"}]
