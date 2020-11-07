@@ -19,7 +19,7 @@ import javax.imageio.ImageIO;
 public class TheArtist {
     private double px, py;// pixel cordinate
     private double r, degree;
-    private double spacing = 15; // spacing between the drawn points
+    private double spacing = 8; // spacing between the drawn points
     private int width, height; // height and Widht of the image
     private double goldenRatio = (Math.sqrt(5.0) + 1) / 2; // The Golden Ratio 
 
@@ -79,7 +79,7 @@ public class TheArtist {
             int avg = (r + g + b) / 3; // because i like the gray scaled ones 😊
             float luminance = (r * 0.2126f + g * 0.7152f + b * 0.0722f) / 255; // brightness
 
-            StdDraw.setPenColor(avg, avg, avg); // set all gray 🤗
+            StdDraw.setPenColor(r, g, b); // set all gray 🤗
             StdDraw.setPenRadius((1 - luminance) / 70); /** set the point size */
             StdDraw.point(px, -1 * py); // draw the point
             StdDraw.show();
